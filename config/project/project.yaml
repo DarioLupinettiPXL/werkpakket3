@@ -1,0 +1,23 @@
+dateModified: 1716823027
+email:
+  fromEmail: dariolupinetti@hotmail.com
+  fromName: werkpakket3
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3e2240be-a94b-470d-a703-3ec3a6d345a2: werkpakket3 # werkpakket3
+    7d15365b-9260-4ec0-b88b-c800acb33f73: werkpakket3 # werkpakket3
+    84cbde9c-169b-4b86-a908-8edb8e96d3a0: 'Public Schema' # Public Schema
+system:
+  edition: pro
+  live: true
+  name: werkpakket3
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

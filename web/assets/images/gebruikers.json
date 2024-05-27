@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "email": "test@hotmail.com",
+            "password": "123",
+            "name":"Kentrell",
+            "lastname": "Gaulden",
+            "address": "Sidelane 250b",
+            "postalcode": "450",
+            "city": "Utah"
+        },
+        {
+            "email": "test2@hotmail.com",
+            "password": "111",
+            "name":"Jahseh",
+            "lastname": "Onfroy",
+            "address": "Miami beach 12",
+            "postalcode": "621",
+            "city": "Florida"
+        }
+    ]
+}

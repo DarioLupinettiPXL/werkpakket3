@@ -1,0 +1,204 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Bugatti Chiron",
+            "description": "De Bugatti Chiron is een meesterwerk van techniek en design, dat de essentie van luxe en snelheid belichaamt.",
+            "image": "product1.jpg",
+            "price": 2500000,
+            "btw": 21,
+            "stock": 3,
+            "brand": "Bugatti"
+        },
+        {
+            "id": 2,
+            "title": "BMW i8",
+            "description": "De BMW i8 is een opvallende en innovatieve plug-in hybride sportwagen.",
+            "image": "product2.jpg",
+            "price": 150000,
+            "btw": 21,
+            "stock": 8,
+            "brand": "BMW"
+        },
+        {
+            "id": 3,
+            "title": "Koenigsegg Gemera",
+            "description": "De Koenigsegg Gemera is een revolutionaire hypercar die innovatie en prestaties naar een geheel nieuw niveau tilt.",
+            "image": "product3.jpg",
+            "price": 1800000,
+            "btw": 21,
+            "stock": 2,
+            "brand": "Koenigsegg"
+        },
+        {
+            "id": 4,
+            "title": "Pagani Huayra",
+            "description": "De Pagani Huayra is een verbluffende hypercar die synoniem staat voor Italiaanse passie en precisie.",
+            "image": "product4.jpg",
+            "price": 2300000,
+            "btw": 21,
+            "stock": 1,
+            "brand": "Pagani"
+        },
+        {
+            "id": 5,
+            "title": "Lamborghini Aventador",
+            "description": "De Lamborghini Aventador is een ware legende in de wereld van high-performance sportwagens.",
+            "image": "product5.jpg",
+            "price": 400000,
+            "btw": 21,
+            "stock": 2,
+            "brand": "Lamborghini"
+        },
+        {
+            "id": 6,
+            "title": "Ferrari LaFerrari",
+            "description": "De Ferrari LaFerrari is een van de meest indrukwekkende en zeldzame hypercars die ooit zijn gebouwd.",
+            "image": "product6.jpg",
+            "price": 3000000,
+            "btw": 21,
+            "stock": 1,
+            "brand": "Ferrari"
+        },
+        {
+            "id": 7,
+            "title": "Ferrari 488 GTB",
+            "description": "De Ferrari 488 GTB is een krachtige Italiaanse sportauto met een V8-motor en een indrukwekkende acceleratie.",
+            "image": "product7.jpg",
+            "price": 250000,
+            "btw": 21,
+            "stock": 5,
+            "brand": "Ferrari"
+        },
+        {
+            "id": 8,
+            "title": "Lamborghini Huracan",
+            "description": "De Lamborghini Huracan is een prachtige en extreem snelle supercar die de harten van autoliefhebbers verovert.",
+            "image": "product8.jpg",
+            "price": 280000,
+            "btw": 21,
+            "stock": 3,
+            "brand": "Lamborghini"
+        },
+        {
+            "id": 9,
+            "title": "McLaren 720S",
+            "description": "De McLaren 720S is een Britse supercar met een futuristisch ontwerp en verbluffende prestaties.",
+            "image": "product9.jpg",
+            "price": 270000,
+            "btw": 21,
+            "stock": 2,
+            "brand": "McLaren"
+        },
+        {
+            "id": 10,
+            "title": "Porsche 911 GT3",
+            "description": "De Porsche 911 GT3 is een icoon onder sportauto's en staat bekend om zijn handling en krachtige motor.",
+            "image": "product10.jpg",
+            "price": 190000,
+            "btw": 21,
+            "stock": 6,
+            "brand": "Porsche"
+        },
+        {
+            "id": 11,
+            "title": "Aston Martin DBS Superleggera",
+            "description": "De Aston Martin DBS Superleggera is een luxe grand tourer met een V12-motor en een stijlvol design.",
+            "image": "product11.jpg",
+            "price": 310000,
+            "btw": 21,
+            "stock": 2,
+            "brand": "Aston Martin"
+        },
+        {
+            "id": 12,
+            "title": "Bugatti Veyron",
+            "description": "De Bugatti Veyron is een hypercar zoals de Chiron met buitenaardse prestaties en een sportievere coupé ontwerp.",
+            "image": "product12.jpg",
+            "price": 3500000,
+            "btw": 21,
+            "stock": 1,
+            "brand": "Bugatti"
+        },
+        {
+            "id": 13,
+            "title": "Koenigsegg Jesko",
+            "description": "De Koenigsegg Jesko is een Zweedse hypercar met een hoog vermogen en geavanceerde technologie.",
+            "image": "product13.jpg",
+            "price": 2800000,
+            "btw": 21,
+            "stock": 2,
+            "brand": "Koenigsegg"
+        },
+        {
+            "id": 14,
+            "title": "Ferrari SF90 Stradale",
+            "description": "De Ferrari SF90 Stradale is een hybride supercar met ongelooflijke prestaties en efficiency.",
+            "image": "product14.jpg",
+            "price": 500000,
+            "btw": 21,
+            "stock": 4,
+            "brand": "Ferrari"
+        },
+        {
+            "id": 15,
+            "title": "Pagani Zonda",
+            "description": "De Pagani Zonda is een Italiaanse hypercar met handgemaakt vakmanschap en een erg gedetaileerde design.",
+            "image": "product15.jpg",
+            "price": 2950000,
+            "btw": 21,
+            "stock": 1,
+            "brand": "Pagani"
+        },
+        {
+            "id": 16,
+            "title": "Lamborghini Aventador SVJ",
+            "description": "De Lamborghini Aventador SVJ is een krachtige en agressieve supercar met aerodynamische perfectie.",
+            "image": "product16.jpg",
+            "price": 400000,
+            "btw": 21,
+            "stock": 3,
+            "brand": "Lamborghini"
+        },
+        {
+            "id": 17,
+            "title": "Audi R8 V10 Plus",
+            "description": "De Audi R8 V10 Plus combineert Duitse techniek met sportwagenprestaties en luxe.",
+            "image": "product17.jpg",
+            "price": 190000,
+            "btw": 21,
+            "stock": 5,
+            "brand": "Audi"
+        },
+        {
+            "id": 18,
+            "title": "Maserati MC20",
+            "description": "De Maserati MC20 is een prachtige Italiaanse sportauto met een scherp ontwerp en veel vermogen.",
+            "image": "product18.jpg",
+            "price": 260000,
+            "btw": 21,
+            "stock": 3,
+            "brand": "Maserati"
+        },
+        {
+            "id": 19,
+            "title": "Lotus Evija",
+            "description": "De Lotus Evija is een elektrische hypercar met verbluffende acceleratie en een futuristisch uiterlijk.",
+            "image": "product19.jpg",
+            "price": 2000000,
+            "btw": 21,
+            "stock": 1,
+            "brand": "Lotus"
+        },
+        {
+            "id": 20,
+            "title": "Porsche Taycan Turbo S",
+            "description": "De Porsche Taycan Turbo S is een elektrische sportwagen met Duitse precisie en snelheid.",
+            "image": "product20.jpg",
+            "price": 220000,
+            "btw": 21,
+            "stock": 0,
+            "brand": "Porsche"
+        }
+    ]
+}

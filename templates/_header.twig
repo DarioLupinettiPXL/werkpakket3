@@ -1,0 +1,28 @@
+<!-- templates/_header.twig -->
+<nav class="navbar">
+    <div class="left-section">
+        <a class="navbar-link" href="{{ url('') }}">Home</a>
+        <a class="navbar-link" href="{{ url('overzicht') }}">Overzicht</a>
+    </div>
+    <div class="right-section">
+        {% if not currentUser %}
+            <a href="{{ url('login') }}" class="btn">Login</a>
+        {% else %}
+            <button class="btn" onclick="logout()">Loguit</button>
+        {% endif %}
+        <a href="{{ url('winkelmand') }}">
+            <div class="cart-icon">
+                <img src="{{ url('assets/cart.png') }}" alt="Cart">
+            </div>
+        </a>
+        <a href="{{ url('') }}">
+            <img src="{{ url('assets/logo.png') }}" alt="Logo" class="logo">
+        </a>
+    </div>
+</nav>
+
+<script>
+    function logout() {
+        // Perform logout logic here
+    }
+</script>
