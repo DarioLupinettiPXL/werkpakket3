@@ -1,0 +1,57 @@
+fieldLayouts:
+  d6b9df8b-ec35-478c-ae90-ac8f6328374f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 280ae18a-5300-4702-90ec-90d56f30b614 # Facebook Icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18537825-0291-49ce-a46f-5758b2a1144a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 00e6fccd-a9d5-4fb8-96b2-9174f6065ab6 # Twitter Icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c1dd3f7-6c69-416a-a00c-467da53c6a69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a697bdac-bee9-42c3-a780-9b750ce7179e # Instagram Icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f21d3f7-89c8-4ccd-80c9-745e67229f87
+            userCondition: null
+            warning: null
+            width: 100
+        name: Footer
+        uid: 7d911eb7-eb00-41c8-a6bf-2178260e6eb0
+        userCondition: null
+handle: footerImages
+name: 'Footer Images'
+sortOrder: 1

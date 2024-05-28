@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - cfe07984-8857-470c-9716-e60d95e24135 # Home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3e2240be-a94b-470d-a703-3ec3a6d345a2: # werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: home/index
+    uriFormat: __home__
+type: single

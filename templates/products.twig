@@ -1,0 +1,46 @@
+{% extends "_layouts/main" %}
+
+{% block content %}
+    <main id="products-page">
+        <section id="filter">
+            <div id="filter_container">
+                <label for="brand">Brand:</label>
+                <select id="brand-filter">
+                    <option value="All">All</option>
+                    {% for brand in brands %}
+                        <option value="{{ brand }}">{{ brand }}</option>
+                    {% endfor %}
+                </select>
+
+                <label for="price">Price:</label>
+                <select id="price-filter">
+                    <option value="1">Under €200,000</option>
+                    <option value="2">€200,000 - €1,000,000</option>
+                    <option value="3">€1,000,000 - €2,000,000</option>
+                    <option value="4">€2,000,000+</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="products">
+            <div id="product-list">
+                {% for product in products %}
+                    <div class="product-card">
+                        <img src="{{ product.imageUrl }}" alt="{{ product.title }}">
+                        <h3>{{ product.title }}</h3>
+                        <p>{{ product.price | currency }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="pagination">
+            <div class="pagination">
+                {% for page in 1..totalPages %}
+                    <a href="?page={{ page }}" class="{% if page == currentPage %}active{% endif %}">{{ page }}</a>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

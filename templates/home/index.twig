@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ siteName }}</title>
+    <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
+</head>
+<body>
+{% include '_header.twig' %}
+
+<main>
+    <div class="banner">
+        {% set bannerImage = entry.bannerImage.one() %}
+        {% if bannerImage %}
+            <img src="{{ bannerImage.url }}" alt="{{ bannerImage.title }}">
+        {% endif %}
+        <div class="banner-content">
+            <h1>Welkom bij SuperCar's By Dario!</h1>
+            <a href="{{ url('overzicht') }}" class="btn">Ontdek meer</a>
+        </div>
+    </div>
+
+    <div class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            {% set products = craft.entries.section('products').all() %}
+            {% for product in products %}
+                <div class="product-card">
+                    <div class="product-image-container">
+                        {% set productImage = product.productImage.one() %}
+                        {% if productImage %}
+                            <a href="{{ url('product', { id: product.id }) }}">
+                                <img class="product-image" src="{{ productImage.getUrl() }}" alt="{{ product.title }}">
+                            </a>
+                        {% endif %}
+                    </div>
+                    <div class="product-details">
+                        <h3>{{ product.title }}</h3>
+                        <p class="price">€{{ product.price | number_format(2, ',', '.') }}</p>
+                        <a href="{{ url('product', { id: product.id }) }}">
+                            <div class="btn">Ga naar product</div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>
+
+
+{% include '_footer.twig' %}
+
+<script src="{{ url('assets/js/script.js') }}"></script>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .banner-content h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .banner-content .btn {
+        background-color: #006400;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .banner-content .btn:hover {
+        background-color: #004c00;
+    }
+
+    .product-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(33.333% - 40px);
+        margin: 20px;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .product-image-container {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+
+    .product-image:hover {
+        transform: scale(1.1);
+    }
+
+    .product-details {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-details h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .product-details .price {
+        font-size: 1.2em;
+        color: #009688;
+        margin-bottom: 15px;
+    }
+
+    .product-details .btn {
+        background-color: #006400;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+    .product-details .btn:hover {
+        background-color: #004c00;
+    }
+
+    .social-icons img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+</style>

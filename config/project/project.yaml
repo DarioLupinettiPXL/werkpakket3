@@ -1,13 +1,51 @@
-dateModified: 1716823027
+dateModified: 1716913747
 email:
   fromEmail: dariolupinetti@hotmail.com
   fromName: werkpakket3
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
 meta:
   __names__:
+    00e6fccd-a9d5-4fb8-96b2-9174f6065ab6: 'Twitter Icon' # Twitter Icon
+    1ded2eee-ef07-4dd7-b183-8e19a45c5822: 'Header images' # Header images
+    2ad65523-0c8a-4fb3-8cc7-6c633e5299ed: Header # Header
     3e2240be-a94b-470d-a703-3ec3a6d345a2: werkpakket3 # werkpakket3
+    5f4d28f5-9922-44b0-9c5d-9682a7078519: 'Cart Icon' # Cart Icon
+    6c1b6a6f-e3b7-4404-a9ea-8abe6af55a3b: Products # Products
     7d15365b-9260-4ec0-b88b-c800acb33f73: werkpakket3 # werkpakket3
+    20edcb1d-20ad-4532-ae92-c6ba01276764: 'products page' # products page
+    26e9e272-808f-419e-a4a9-c7b9cf797e66: 'Product details' # Product details
+    068d8444-a253-4dcf-bb5b-2a5d78a3cbd6: 'Product Image' # Product Image
     84cbde9c-169b-4b86-a908-8edb8e96d3a0: 'Public Schema' # Public Schema
+    88b4987e-e8e5-409e-bc08-98fbbccf17f2: 'products page' # products page
+    280ae18a-5300-4702-90ec-90d56f30b614: 'Facebook Icon' # Facebook Icon
+    308a18de-f091-4b14-95d3-7c763fc2be73: Price # Price
+    914f26f2-2a9b-4078-8bfd-29717ee8e262: Assets # Assets
+    72911f3b-e1ce-4c97-81c3-b6be6ce417c8: Logo # Logo
+    a697bdac-bee9-42c3-a780-9b750ce7179e: 'Instagram Icon' # Instagram Icon
+    ae01d53a-c50f-404c-a585-c58899007458: Footer # Footer
+    b121a54f-5028-4766-833f-6b84976360c6: bannerImage # bannerImage
+    cfe07984-8857-470c-9716-e60d95e24135: Home # Home
+    d00af943-5072-44aa-a5ed-b3892e464cc7: 'Footer Images' # Footer Images
+    e8435701-f6ef-4184-a243-1757ebf5aa0d: Description # Description
+    f3b5f6e0-3fb7-497f-8698-3fb56f8522e4: Home # Home
+plugins:
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: 365JHZL48RYWK30TZURZBYQ5
+    schemaVersion: 2.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: pro
   live: true

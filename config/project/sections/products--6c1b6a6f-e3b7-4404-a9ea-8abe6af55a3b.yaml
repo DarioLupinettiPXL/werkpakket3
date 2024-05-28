@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 26e9e272-808f-419e-a4a9-c7b9cf797e66 # Product details
+handle: products
+maxAuthors: 1
+name: Products
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3e2240be-a94b-470d-a703-3ec3a6d345a2: # werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: products/_entry
+    uriFormat: 'products/{slug}'
+type: channel
